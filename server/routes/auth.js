@@ -13,7 +13,7 @@ const crypto=require('crypto')
 
 const transporter=nodemailer.createTransport(sendgridTransport({
     auth:{
-        api_key:"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"
+        api_key:""
     }
 }))
 
